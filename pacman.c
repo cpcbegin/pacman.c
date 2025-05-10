@@ -714,6 +714,7 @@ sapp_desc sokol_main(int argc, char* argv[]) {
         .height = DISPLAY_TILES_Y * TILE_HEIGHT * 2,
         .window_title = "pacman.c",
         .logger.func = slog_func,
+        .fullscreen = true,
     };
 }
 
