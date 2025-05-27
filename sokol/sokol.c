@@ -8,7 +8,7 @@
 //#define SOKOL_GLCORE
 #define SOKOL_METAL
 #else
-#define SOKOL_GLCORE
+#define SOKOL_GLES3
 #endif
 #include "sokol_app.h"
 #include "sokol_gfx.h"
